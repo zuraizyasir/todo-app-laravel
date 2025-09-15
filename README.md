@@ -139,13 +139,10 @@ Time: 00:09.679, Memory: 46.00 MB
 
 ---
 
-## 👨‍💻 Author
-
-Developed by [Zuraiz Yasir].
 
 ---
 
-## 📜 License
+## License
 
 This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
 
