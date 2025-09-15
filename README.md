@@ -64,4 +64,7 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
 2. Install backend dependencies:
     ```bash
    composer install
+3. Install frontend dependencies:
+    ```bash
+   npm install
    
