@@ -67,4 +67,20 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
 3. Install frontend dependencies:
     ```bash
    npm install
+4. Configure the environment:
+   (This will create the .env file)
+   ```bash
+   cp .env.example .env
+5. Edit .env for your database:
+   ```bash
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=todo_app_laravel
+   DB_USERNAME=root
+   DB_PASSWORD=
+6. Run database migrations:
+   ```bash
+   php artisan migrate
+   
    
