@@ -108,7 +108,7 @@ Time: 00:09.679, Memory: 46.00 MB
 ### Running Tests
 - Frontend (Vitest):
    ```bash
-   ./vendor/bin/phpunit
+   npm run test
 ### Expected Output
  RUN  v3.2.4 D:/xampp/htdocs/todo-app-laravel-master
 
