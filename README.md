@@ -82,5 +82,43 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
 6. Run database migrations:
    ```bash
    php artisan migrate
+7. Start the application:
+   ```bash
+   php artisan serve
+8. Start the Vite server for the frontend:
+   ```bash
+   npm run dev
+
+### Open http://127.0.0.1:8000 in your browser.
    
-   
+### Running Tests
+- Backend (PHPUnit):
+   ```bash
+   ./vendor/bin/phpunit
+### Expected Output
+PHPUnit 11.5.38 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.2.12
+Configuration: D:\xampp\htdocs\todo-app-laravel-master\phpunit.xml
+
+..............                                                    14 / 14 (100%)
+
+Time: 00:09.679, Memory: 46.00 MB
+
+### Frontend (Vitest):
+   ```bash
+   npm run test
+### Expected Output
+ RUN  v3.2.4 D:/xampp/htdocs/todo-app-laravel-master
+
+ ✓ tests/Vitest/Login.test.js (4 tests) 208ms
+ ✓ tests/Vitest/Register.test.js (5 tests) 250ms
+ ✓ tests/Vitest/Dashboard.test.js (4 tests) 342ms
+ ✓ tests/Vitest/TodoForm.test.js (3 tests) 139ms
+
+ Test Files  4 passed (4)
+      Tests  16 passed (16)
+   Start at  15:20:13
+   Duration  8.67s (transform 1.48s, setup 1.86s, collect 2.72s, tests 939ms, environment 10.16s, prepare 2.92s)
+
+
