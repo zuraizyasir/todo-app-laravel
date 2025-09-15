@@ -13,7 +13,7 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
 - **🔐 User Authentication**:
   - Register with name, email, and password (min. 8 characters, confirmed).
   - Login with email/password for a Sanctum token.
-  - Logout to revoke the token
+  - Logout to revoke the token.
 
 - **📝 Task Management**:
   - Create todos with title, description, status (`pending`, `in-progress`, `completed`), and due date.
