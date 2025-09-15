@@ -39,7 +39,7 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
 ### 🛠️ Tech Stack
 | Component         | Technologies                                      |
 |-------------------|---------------------------------------------------|
-| **Backend**       | Laravel 12, PHP 8.2, SQLite, Laravel Sanctum      |
+| **Backend**       | Laravel 12, PHP 8.2, MYSQL, Laravel Sanctum      |
 | **Frontend**      | Vue.js 3, Vite, Tailwind CSS, Vitest             |
 | **Database**      | SQLite (testing), MySQL  |
 | **Testing**       | PHPUnit 11.5.38, Vitest                          |
