@@ -105,10 +105,20 @@ Configuration: D:\xampp\htdocs\todo-app-laravel-master\phpunit.xml
 
 Time: 00:09.679, Memory: 46.00 MB
 
-### Frontend (Vitest):
+### Running Tests
+- Frontend (Vitest):
    ```bash
-   npm run test
+   ./vendor/bin/phpunit
+### Expected Output
+ RUN  v3.2.4 D:/xampp/htdocs/todo-app-laravel-master
 
+ ✓ tests/Vitest/Login.test.js (4 tests) 208ms
+ ✓ tests/Vitest/Register.test.js (5 tests) 250ms
+ ✓ tests/Vitest/Dashboard.test.js (4 tests) 342ms
+ ✓ tests/Vitest/TodoForm.test.js (3 tests) 139ms
 
-
+ Test Files  4 passed (4)
+      Tests  16 passed (16)
+   Start at  15:20:13
+   Duration  8.67s (transform 1.48s, setup 1.86s, collect 2.72s, tests 939ms, environment 10.16s, prepare 2.92s)
 
