@@ -122,3 +122,27 @@ Time: 00:09.679, Memory: 46.00 MB
    Start at  15:20:13
    Duration  8.67s (transform 1.48s, setup 1.86s, collect 2.72s, tests 939ms, environment 10.16s, prepare 2.92s)
 
+## 📚 API Endpoints
+
+| Method | Endpoint        | Description         | Auth |
+|--------|----------------|---------------------|------|
+| POST   | /api/register  | Register new user   | No   |
+| POST   | /api/login     | Login user          | No   |
+| GET    | /api/todos     | List user todos     | Yes  |
+| POST   | /api/todos     | Create todo         | Yes  |
+| GET    | /api/todos/{id}| Show todo           | Yes  |
+| PUT    | /api/todos/{id}| Update todo         | Yes  |
+| DELETE | /api/todos/{id}| Delete todo         | Yes  |
+
+---
+
+## 👨‍💻 Author
+
+Developed by [Zuraiz Yasir].
+
+---
+
+## 📜 License
+
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
+
