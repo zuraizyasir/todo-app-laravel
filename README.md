@@ -52,7 +52,7 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
 #### 📋 Prerequisites
 - PHP 8.2+
 - Composer
-- Node.js 22+ and npm
+- Node.js 20+ and npm
 - MySQL
 - Git
 
