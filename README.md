@@ -61,3 +61,7 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
    ```bash
    git clone https://github.com/your-repo/todo-app-laravel.git
    cd todo-app-laravel
+2. Install backend dependencies:
+    ```bash
+   composer install
+   
