@@ -79,13 +79,16 @@ The **Todo App** is a modern, full-stack web application built with [Laravel 12]
    DB_DATABASE=todo_app_laravel
    DB_USERNAME=root
    DB_PASSWORD=
-6. Run database migrations:
+6. Generate an application key:
+   ```bash
+   php artisan key:generate
+7. Run database migrations:
    ```bash
    php artisan migrate
-7. Start the application:
+8. Start the application:
    ```bash
    php artisan serve
-8. Start the Vite server for the frontend:
+9. Start the Vite server for the frontend:
    ```bash
    npm run dev
 
